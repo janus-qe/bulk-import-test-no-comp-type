@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: acr-test-entity
+  name: bulk-import-test-no-comp-type
   annotations:
-    'azure-container-registry/repository-name': 'hello-world'
+    'azure-container-registry/repository-name': 'bulk-import-test-no-comp-type'
 spec:
   type: website
   lifecycle: development
